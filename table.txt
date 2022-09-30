@@ -21,7 +21,7 @@ for (let i = 0; i < str.length; i++) {
     console.log("Non");
   }
 }
-/*
+
 Ici, dans la boucle (for), dabord je déclare la variable  "i" et l'initialise à 0 (let i = 0)'.
 Et Je vérifie quil est inférieur au nombre de character dans variable 'str' qui est de type 'chain', (i<str.length) 
 La propriété 'length' renvoie la longueur d'une chaîne. ' et incrémente "i" de 1 après chaque passage dans la boucle.
@@ -29,4 +29,5 @@ Au debut 'i' etait 0 mais  après chaque passage dans la boucle son valeur augem
 Aprés chaque passage dans la boucle, je vérifiez avec la condition 'if', si character qui se trouve a l'index "i" contient la lettre 'y' "if(str[i] == "y") ", 
 Affichez "oui" dans la console s’il y en a un "console.log("Yes")" et "non" dans le cas inverse. console.log("Non");
 
-*/
+
+
